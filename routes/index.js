@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express ABDOU' ,condition:false,list:[15,5,3,4]});
+  res.render('index', { title: 'MAHMOUD'});
 });
 
 module.exports = router;
